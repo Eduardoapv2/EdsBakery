@@ -1,0 +1,99 @@
+header{
+    display: flex;
+    align-self: center;
+    height: 200px;
+}
+.brand{
+    font-size: 3em;
+    font-weight: bold;
+    color: #c42222;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-grow: 5;
+    margin-left: 20px;
+}
+nav{ display:flex;
+    flex-direction: row;
+    align-self: center;
+    background-color: #ffffff;
+    padding: 10px;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: #000000;
+    gap: 10px;
+    margin-left: 400px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;;
+    text-align: left;
+    width: 15%;
+    justify-content: space-evenly;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    background-color: #c42222;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    border-radius: 30px;
+    border: none;
+    height: 70%;
+    gap: 5%;
+    justify-content: space-around;
+}
+.brand{
+    font-size: 3em;
+    color: #c42222;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+    background-color: rgb(202, 202, 202);
+}
+article {
+    display: block;
+    unicode-bidi: isolate;
+    width: 80%;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    padding: 20px;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 20px;
+    justify-content: center;
+    gap: 4%;
+    
+}
+body {
+    height:150vh ;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
